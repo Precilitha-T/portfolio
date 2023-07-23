@@ -1,0 +1,47 @@
+.bannerBgImage{
+    height: 100vh;
+    background: url("/images/I1.jpg");
+    background-size: cover;
+    position: relative;
+    }
+    .bannerText {
+        text-align: center;
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        transform: translate(-10%, -10%);
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    .bannerTitle{
+        font-size: 5rem;
+    }
+    .bannerDesc{
+        font-size: 2rem;
+    }
+
+
+    .card{
+        cursor: pointer;
+    }
+    .card:hover{
+        background-color: lightpink;
+        border: 2px solid #ffffff;
+    }
+
+    .bIcon{
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+         font-family: 'Raleway', sans-serif;;
+    }
+
+    .img-fluid:hover{
+        border: 2px solid white;
+
+    }
+
+    .card-img-top{
+        height: 50vh;
+    }
